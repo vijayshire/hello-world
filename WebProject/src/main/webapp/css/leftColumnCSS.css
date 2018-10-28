@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+#leftColumn{
+	width:265.5px;
+	height:468px;
+
+	padding:0;
+	float:left;
+	
+	border-right:1px solid #c0c0c0;
+}

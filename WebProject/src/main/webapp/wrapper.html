@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/wrapperCSS.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#leftColumn").load("leftColumn.html"); 
+  $("#container").load("container.html"); 
+  $("#rightColumn").load("rightColumn.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+</head>
+<body>
+<div id="wrapper" >
+<div id="header"></div>
+<div id="leftColumn"></div>
+<div id="container"></div>
+<div id="rightColumn"></div>
+<div id="footer"></div>
+</div>
+</body>
+</html>

@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LoginBean</display-name>
+    <servlet-name>LoginBean</servlet-name>
+    <servlet-class>loginBean.LoginBean</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginBean</servlet-name>
+    <url-pattern>/LoginBean</url-pattern>
+  </servlet-mapping>
 </web-app>
